@@ -16,3 +16,11 @@ aside {
   height: 100vh;
   background-color: pink;
 }
+
+main {
+  display: flex;
+}
+
+.deal-margin {
+  margin: 44px;
+}

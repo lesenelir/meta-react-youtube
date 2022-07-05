@@ -11,7 +11,18 @@ function App() {
           12
         </aside>
         <main>
-          <VideoCard/>
+          <div className={"deal-margin"}>
+            <VideoCard/>
+          </div>
+          <div className={"deal-margin"}>
+            <VideoCard/>
+          </div>
+          <div className={"deal-margin"}>
+            <VideoCard/>
+          </div>
+          <div className={"deal-margin"}>
+            <VideoCard/>
+          </div>
         </main>
       </div>
     </div>
