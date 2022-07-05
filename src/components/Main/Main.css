@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-top {
+  display: flex;
+}
+
+.main-bottom {
+  display: flex;
+}
+
+.deal-margin {
+  margin: 40px
+}

@@ -1,6 +1,5 @@
 import './App.css'
-
-import VideoCard from "./components/VideoCard/VideoCard"
+import Main from "./components/Main/Main"
 
 function App() {
   return (
@@ -10,36 +9,7 @@ function App() {
         <aside>
           12
         </aside>
-        <main>
-          <div className={"main-top"}>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-          </div>
-          <div className={"main-bottom"}>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-            <div className={"deal-margin"}>
-              <VideoCard/>
-            </div>
-          </div>
-        </main>
+        <Main/>
       </div>
     </div>
   )
