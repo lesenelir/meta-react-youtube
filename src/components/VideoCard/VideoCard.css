@@ -1,0 +1,42 @@
+.video-box {
+  width: 309px;
+  height: 268px; /*174 + 94*/
+}
+
+.video-main-img {
+  width: 309px;
+  height: 174px;
+}
+
+.video-down {
+  display: flex;
+  width: 309px;
+  height: 94px;
+}
+
+.video-down-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.video-down-right {
+  width: 260px;
+  height: 94px;
+  padding: 0 24px 0 12px;
+}
+
+.p-header {
+  color: #030303;
+  font: 18px Roboto, Arial, sans-serif;
+  /*margin-top: -1px;*/
+  margin: 0;
+}
+
+.p-footer {
+  color: #606060;
+  font: 12px Roboto, Arial, sans-serif;
+  margin: 4px 0 0 0 ;
+}
+
+
