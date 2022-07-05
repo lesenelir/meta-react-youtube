@@ -21,7 +21,7 @@ import './VideoCard.css'
 //   )
 // }
 
-// 组件的复用
+// 可复用的组件
 const VideoCard = (props) => {
   console.log(props)
   return (
