@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/meta-react-youtube/static/css/main.07652836.css",
+    "main.js": "/meta-react-youtube/static/js/main.df9d2f43.js",
+    "static/js/787.bfcf70f6.chunk.js": "/meta-react-youtube/static/js/787.bfcf70f6.chunk.js",
+    "static/media/6.png": "/meta-react-youtube/static/media/6.e2003bc08f0d51ee4804.png",
+    "static/media/3.png": "/meta-react-youtube/static/media/3.79254a393dde3eae07ff.png",
+    "static/media/2.png": "/meta-react-youtube/static/media/2.3b634d1b9c1f3ff18f99.png",
+    "static/media/4.png": "/meta-react-youtube/static/media/4.afd5d337f942f175bb1f.png",
+    "static/media/8.png": "/meta-react-youtube/static/media/8.0e38045d60e3476e7b8f.png",
+    "static/media/1.png": "/meta-react-youtube/static/media/1.723488a3113e93e3d6cf.png",
+    "static/media/5.png": "/meta-react-youtube/static/media/5.489e95685b6dc5fc1639.png",
+    "index.html": "/meta-react-youtube/index.html",
+    "main.07652836.css.map": "/meta-react-youtube/static/css/main.07652836.css.map",
+    "main.df9d2f43.js.map": "/meta-react-youtube/static/js/main.df9d2f43.js.map",
+    "787.bfcf70f6.chunk.js.map": "/meta-react-youtube/static/js/787.bfcf70f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07652836.css",
+    "static/js/main.df9d2f43.js"
+  ]
+}
