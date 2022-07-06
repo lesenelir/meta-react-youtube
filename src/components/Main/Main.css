@@ -1,16 +1,13 @@
-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .main-top {
   display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 .main-bottom {
   display: flex;
-}
-
-.deal-margin {
-  margin: 40px
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 160px;
 }

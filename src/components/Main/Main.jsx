@@ -4,15 +4,14 @@ import videoCardData from "../../data/videoCardData"
 
 import './Main.css'
 
-
 // props要传入图片
 
 const Main = () => {
 
-  console.log(videoCardData)
   const videoCards = videoCardData.map((item) => {
     return ( // return 一个jsx元素
       <VideoCard
+          key={item.id}
           videoImg={item.videoImg}
           profileImg={item.profileImg}
           title={item.title}
@@ -25,44 +24,20 @@ const Main = () => {
   return (
       <main>
         <div className={"main-top"}>
-          {videoCards}
+          {/*{videoCards}*/}
+          {/*选取前四个作为top*/}
+          {videoCards[0]}
+          {videoCards[1]}
+          {videoCards[2]}
+          {videoCards[3]}
+        </div>
 
-
-
-          {/*<div className={"deal-margin"}>*/}
-          {/*  <VideoCard*/}
-          {/*      videoImg={'../../images/list-item/1.png'}*/}
-          {/*      // profileImg={profileImg}*/}
-          {/*      title={"Build and deploy a profile"}*/}
-          {/*      author={"freeCodeCamp.org"}*/}
-          {/*      time={"71万次观看 · 2年前"}*/}
-          {/*  />*/}
-          {/*</div>*/}
-
-
-        {/*  <div className={"deal-margin"}>*/}
-        {/*    <VideoCard/>*/}
-        {/*  </div>*/}
-        {/*  <div className={"deal-margin"}>*/}
-        {/*    <VideoCard/>*/}
-        {/*  </div>*/}
-        {/*  <div className={"deal-margin"}>*/}
-        {/*    <VideoCard/>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
-        {/*<div className={"main-bottom"}>*/}
-        {/*  <div className={"deal-margin"}>*/}
-        {/*    <VideoCard/>*/}
-        {/*  </div>*/}
-        {/*  <div className={"deal-margin"}>*/}
-        {/*    <VideoCard/>*/}
-        {/*  </div>*/}
-        {/*  <div className={"deal-margin"}>*/}
-        {/*    <VideoCard/>*/}
-        {/*  </div>*/}
-        {/*  <div className={"deal-margin"}>*/}
-        {/*    <VideoCard/>*/}
-        {/*  </div>*/}
+        <div className={"main-bottom"}>
+          {/*选取后四个作为bottom*/}
+          {videoCards[4]}
+          {videoCards[5]}
+          {videoCards[6]}
+          {videoCards[7]}
         </div>
       </main>
   )
